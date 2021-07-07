@@ -23,10 +23,12 @@
             </header>
             <main>
 
-            <div><a href="wyszukaj_uzytkownika.php"><button>Wyszukaj użytkownika </button></div> 
+           
+                <a href="wyszukaj_uzytkownika.html"><button>Wyszukaj użytkownika </button></div> 
                 <div><a href="rejestracja_uzytkownika.php"><button>Zarejestruj użytkownika </button></div>
                 <div><a href="wyszukaj_ksiazke.php"><button>Wyszukaj książkę </button></div>
                 <div><a href="dodaj_ksiazke.php"><button>Dodaj książkę </button></div>
+            
                 
             </main>
         </div>    

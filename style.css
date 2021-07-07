@@ -25,8 +25,8 @@ header
 
 main
 {
-    margin-left: 10%;
-    margin-right: 10%;
+   
+    text-align: center;
 
     
 }
@@ -42,3 +42,16 @@ button:hover
 {
     background-color: cornflowerblue;
 }
+
+.szukaj
+{
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.szukaj:hover
+{
+    background-color: cornflowerblue;
+}
+
