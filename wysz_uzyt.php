@@ -3,12 +3,10 @@
     require_once ('connect.php');
     $polaczenie = new mysqli ($host, $db_user, $db_password, $db_name);
 
-    // $nr_karty_bibliotecznej = $_POST['nr_karty_bibliotecznej'];
-
      if($polaczenie->connect_errno !=0)
      {
-         echo "Błąd " . $polaczenie->connect_error;
-         $polaczenie->close();
+        echo "Błąd " . $polaczenie->connect_error;
+        $polaczenie->close();
      }
      else
      {
@@ -43,7 +41,7 @@
     
         <?php
             $rezultat = $polaczenie->query($zapytanie);
-            
+            echo $polaczenie->error;
 
             if(empty($_POST['karta']))
             {
@@ -78,6 +76,8 @@
                             </tr>
                         </table>";
                     }
+                        
+                    $polaczenie->close();
                 }
     }
         ?>

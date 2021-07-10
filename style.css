@@ -55,3 +55,7 @@ button:hover
     background-color: cornflowerblue;
 }
 
+input
+{
+    margin: 5px;
+}
